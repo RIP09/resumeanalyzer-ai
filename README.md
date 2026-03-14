@@ -59,10 +59,12 @@ GOOGLE_API_KEY=your_api_key_here
 
 ```bash
 streamlit run app.py
-
-```   OR   ```
+```
+   OR 
+```   
 python -m streamlit run app.py
----        ```
+```
+---   
 
 ## 🚦 How to Use
 
