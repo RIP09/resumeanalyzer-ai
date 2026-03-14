@@ -64,7 +64,7 @@ Most resumes fail due to unclear formatting or missing key skills. This tool pro
 
 1. **Clone the Repository:**
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/RIP09/AI_Resume_Analysis.git
 cd your-repo-name
 
 ```
