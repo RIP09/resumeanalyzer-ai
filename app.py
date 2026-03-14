@@ -8,9 +8,11 @@ from dotenv import load_dotenv
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-def get_gemini_response(input_text, pdf_content, prompt):
+def get_gemini_response(resume_text, jd, prompt):
     model = genai.GenerativeModel('gemini-pro')
-    response = model.generate_content([input_text, pdf_content, prompt])
+    # Combine everything into one clear instruction for the AI
+    full_query = f"{prompt}\n\nResume Content:\n{resume_text}\n\nJob Description:\n{jd}"
+    response = model.generate_content(full_query)
     return response.text
 
 def input_pdf_text(uploaded_file):
