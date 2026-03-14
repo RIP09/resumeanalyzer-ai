@@ -91,6 +91,7 @@ streamlit run app.py
 * **Environment Management:** Python-Dotenv
 
 ```
-
+Developed by Deepanshu Murmu
+For Code the Future: AI Edition Hackathon
 ---
 
