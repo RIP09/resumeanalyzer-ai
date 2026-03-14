@@ -38,7 +38,9 @@ Make sure you have Python installed, then run:
 pip install streamlit google-generativeai PyPDF2 python-dotenv
 
 ```
-
+```
+Library Version: Make sure you have the latest library. If the code fails with a "404", it's usually because your google-generativeai package is outdated. Run: pip install --upgrade google-generativeai.
+```
 ### 3. Configure API Credentials
 
 Create a `.env` file in the root directory and add your Google API Key:
